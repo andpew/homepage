@@ -2,3 +2,8 @@
     width: 135px;
     height: 135px;
 }
+
+.linkText{
+    color:#6b4fac;
+    text-decoration: none;
+}
