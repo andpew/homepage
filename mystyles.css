@@ -22,3 +22,28 @@
     box-shadow: 1px 1px 7px 7px #4b3175;
     border: 1px solid #3a3838;
 }
+
+.experiences__timeline-header-durability{
+    color: var(--durability-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.experiences__timeline-header-name{
+    color: var(--primary-text-color);
+    text-decoration-color: var(--text-decoration-color);
+    text-decoration-line: underline;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.experiences__skills-project{
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.experiences__skills-list{
+    color: var(--secondary-text-color);
+    padding-left: 20px;
+}
