@@ -1,0 +1,24 @@
+.wh135 {
+    width: 135px;
+    height: 135px;
+}
+
+.linkText{
+    color:#6b4fac;
+    text-decoration: none;
+}
+
+.darkMode{
+    background-color: rgb(30, 30, 30);
+    --primary-text-color: rgb(224, 214, 214);
+    --secondary-text-color: #cacad1;
+    --durability-text-color: #6a737d9c;
+    --icon-color: #5e5085;
+    --border-color: #53319245;
+    --text-decoration-color: #9975db;
+}
+
+.darkBoxShadow{
+    box-shadow: 1px 1px 7px 7px #4b3175;
+    border: 1px solid #3a3838;
+}
