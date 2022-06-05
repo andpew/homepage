@@ -1,6 +1,7 @@
 let switcher = false
 let counter = 0;
-let audio = new Audio("/assets/test.wav")
+let audio = new Audio()
+audio.src = "https://github.com/andpew/homepage/raw/fc080a63fe37563a403378c6887ed0b24bcc5eae/assets/test.wav"
 audio.volume = 0.25
 
 
