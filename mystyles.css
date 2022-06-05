@@ -47,3 +47,32 @@
     color: var(--secondary-text-color);
     padding-left: 20px;
 }
+
+.additional-info__hobbies,
+.additional-info__likes,
+.additional-info__hates{
+    margin-bottom: 20px;
+}
+.additional-info__hobbies,
+.additional-info__likes,
+.additional-info__hates{
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+.additional-info__hobbies,
+.additional-info__likes,
+.additional-info__hates{
+    color: var(--secondary-text-color);
+    padding-left: 20px;
+}
+
+.list-style__hobbies{
+    list-style-type: "🤟";
+}
+.list-style__likes{
+    list-style-type: "👍";
+}
+.list-style__hates{
+    list-style-type: "👎";
+}
