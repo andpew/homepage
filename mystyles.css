@@ -1,0 +1,99 @@
+.wh135 {
+    width: 135px;
+    height: 135px;
+}
+
+.linkText{
+    color:#6b4fac;
+    text-decoration: none;
+}
+
+.darkMode{
+    background-color: rgb(30, 30, 30);
+    --primary-text-color: rgb(224, 214, 214);
+    --secondary-text-color: #cacad1;
+    --durability-text-color: #6a737d9c;
+    --icon-color: #5e5085;
+    --border-color: #53319245;
+    --text-decoration-color: #9975db;
+}
+
+.darkBoxShadow{
+    box-shadow: 1px 1px 7px 7px #4b3175;
+    border: 1px solid #3a3838;
+}
+
+.experiences__timeline-header-durability{
+    color: var(--durability-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.experiences__timeline-header-name{
+    color: var(--primary-text-color);
+    text-decoration-color: var(--text-decoration-color);
+    text-decoration-line: underline;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.experiences__skills-project{
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.experiences__skills-list{
+    color: var(--secondary-text-color);
+    padding-left: 20px;
+}
+
+.additional-info__hobbies,
+.additional-info__likes,
+.additional-info__hates{
+    margin-bottom: 20px;
+}
+.additional-info__hobbies,
+.additional-info__likes,
+.additional-info__hates{
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+.additional-info__hobbies,
+.additional-info__likes,
+.additional-info__hates{
+    color: var(--secondary-text-color);
+    padding-left: 20px;
+}
+
+.list-style__hobbies{
+    list-style-type: "🤟";
+}
+.list-style__likes{
+    list-style-type: "👍";
+}
+.list-style__hates{
+    list-style-type: "👎";
+}
+
+.darkModeSwitchBtn{
+    width: 512;
+    height: 512;
+    border: 2px solid black;
+    background-color: transparent;
+    transform: scale(1.7);
+    margin-right: 10px;
+}
+
+.fs15px{
+    font-size: 15px;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.center{
+    text-align: center
+}

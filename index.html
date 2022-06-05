@@ -1,10 +1,330 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
     <title>Résumé</title>
+
+    <script def src="myscripts.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mystyles.css" />
   </head>
-  <body>
-    ― Hello World! &#x1F609;
+  <body class="darkMode">
+    <main>
+      <div class="resume darkBoxShadow">
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Andrii Tkachenko</h1>
+            <h3 class="contact-info__sub-header">
+              .NET Binary Studio Academy Student
+            </h3>
+            <div class="contact_info_container fh">
+              <div class="contact-info__block">
+                <a
+                  href="https://www.google.com/search?q=6+%D0%B2%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8F+2001+%D1%80%D1%96%D0%BA&oq=6+%D0%B2%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8F+2001+%D1%80%D1%96%D0%BA&aqs=chrome..69i57.7362j0j7&sourceid=chrome&ie=UTF-8"
+                  target="_blank"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        d="M152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 448C48 456.8 55.16 464 64 464H384C392.8 464 400 456.8 400 448V192H48V448z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>6/9/2001</span>
+                </a>
+                <a
+                  href="https://www.google.com/maps/place/%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/@48.4622985,35.0003565,11z/data=!3m1!4b1!4m5!3m4!1s0x40dbe303fd08468f:0xa1cf3d5f2c11aba!8m2!3d48.464717!4d35.046183"
+                  target="_blank"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>Dnipro, Ukraine</span>
+                </a>
+                <a
+                  href="https://github.com/andpew"
+                  target="_blank"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 496 512"
+                    >
+                      <path
+                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>andpew</span>
+                </a>
+              </div>
+
+              <div class="contact-info__block contact-info__block--center">
+                <img
+                  class="contact-info__avatar wh135"
+                  src="assets/avatar.png"
+                  alt="Avatar"
+                />
+              </div>
+
+              <div class="contact-info__block">
+                <a href="" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>edarkmail@gmail.com</span>
+                </a>
+                <a href="" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M320 0H64C37.49 0 16 21.49 16 48v416C16 490.5 37.49 512 64 512h256c26.51 0 48-21.49 48-48v-416C368 21.49 346.5 0 320 0zM192 464c-17.75 0-32-14.25-32-32s14.25-32 32-32s32 14.25 32 32S209.8 464 192 464z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>+380 93 441 9288</span>
+                </a>
+                <a
+                  href="https://t.me/andpew"
+                  target="_blank"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 496 512"
+                    >
+                      <path
+                        d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>andpew</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg
+                  class="intro__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+              </div>
+              <p class="intro_text">
+                Howdy! I am a student of the
+                <a
+                  href="https://www.nmu.org.ua/ua/"
+                  target="_blank"
+                  class="linkText"
+                  rel="author"
+                >
+                  NTU "Dnipro Polytechnic"</a
+                >. Going to become a .Net developer with the help of the Binary
+                Studio Academy.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Skills</h3>
+              <p class="skills__text">
+                Study diligently, work hard, never give up, like to solve
+                problems, professionally procrastinate.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+              <div class="experiences">
+                <h3 class="experiences__header">Timeline</h3>
+                <div class="experiences__timeline">
+                  <div class="experiences__timeline-header">
+                    <span class="experiences__timeline-header-durability"
+                      >1'st June 2022</span
+                    >
+                    <h3 class="experiences__timeline-header-name">
+                      Joined Binary Studio Academy
+                    </h3>
+                  </div>
+                  <div class="experiences__timeliney-header">
+                    <span class="experiences__timeline-header-durability"
+                      >Year 2021</span
+                    >
+                    <h3 class="experiences__timeline-header-name">
+                      Started studying .NET
+                    </h3>
+                  </div>
+                  <div class="experiences__timeline-header">
+                    <span class="experiences__timeline-header-durability"
+                      >1'st September 2019</span
+                    >
+                    <h3 class="experiences__timeline-header-name">
+                      Moved to Dnipro
+                    </h3>
+                  </div>
+                  <div class="experiences__timeline-header">
+                    <span class="experiences__timeline-header-durability"
+                      >1'st September 2019</span
+                    >
+                    <h3 class="experiences__timeline-header-name">
+                      Entered the university NTU "Dnipro Polytechnic"
+                    </h3>
+                  </div>
+                  <div class="experiences__timeline-header">
+                    <span class="experiences__timeline-header-durability"
+                      >24'th May 2019</span
+                    >
+                    <h3 class="experiences__timeline-header-name">
+                      Graduated school
+                    </h3>
+                  </div>
+                  <div class="experiences__timeline-header">
+                    <span class="experiences__timeline-header-durability"
+                      >Year 2011</span
+                    >
+                    <h3 class="experiences__timeline-header-name">
+                      Moved to Kriviy Rih
+                    </h3>
+                  </div>
+                  <div class="experiences__timeline-header">
+                    <span class="experiences__timeline-header-durability"
+                      >1'st September 2007</span
+                    >
+                    <h3 class="experiences__timeline-header-name">
+                      Went to first grade
+                    </h3>
+                  </div>
+                  <div class="experiences__timeline-header">
+                    <span class="experiences__timeline-header-durability"
+                      >6'th september 2001</span
+                    >
+                    <h3 class="experiences__timeline-header-name">
+                      Born in Horodishche, Cherkasy oblast
+                    </h3>
+                  </div>
+
+                  <div class="experiences__skills">
+                    <h3 class="experiences__header">Programming skills</h3>
+                    <ul class="experiences__skills-list">
+                      <li>GIT</li>
+                      <li>.NET</li>
+                      <li>Little JS</li>
+                      <li>Little SQL</li>
+                      <li>Basic HTML/CSS</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="additional-info fv">
+                <div class="additional-info__hobbies">
+                  <h3 class="additional-info__hobbies-header">Hobbies</h3>
+                  <ul class="additional-info__hobbies-list list-style__hobbies">
+                    <li>develop pet projects</li>
+                    <li>listen to retro music</li>
+                    <li>playing chess</li>
+                    <li>reading art books</li>
+                    <li>watching serials and films</li>
+                  </ul>
+                </div>
+                <div class="additional-info__likes">
+                  <h3 class="additional-info__likes-header">Likes</h3>
+                  <ul class="additional-info__likes-list list-style__likes">
+                    <li>to sleep well</li>
+                    <li>to eat good</li>
+                    <li>watching cat videos</li>
+                    <li>Bulka</li>
+                    <li>sounds of rain</li>
+                    <li>keep an eye on the crypto market</li>
+                  </ul>
+                </div>
+                <div class="additional-info__hates">
+                  <h3 class="additional-info__hates-header">Hates</h3>
+                  <ul class="additional-info__hates-list list-style__hates">
+                    <li>war</li>
+                    <li>expired products</li>
+                    <li>communal payment</li>
+                    <li>bad mood</li>
+                  </ul>
+                </div>
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Languages</h3>
+                  <p class="additional-info__languages-item">
+                    Ukrainian (native)
+                  </p>
+                  <p class="additional-info__languages-item">
+                    English (at least Intermediate / B1)
+                  </p>
+                  <p class="additional-info__languages-item">
+                    Russian (better to forget)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container center">
+          <button
+            class="darkModeSwitchBtn"
+            name="button"
+            onclick="darkModeSwitch()"
+          >
+            <p id="smile" class="fs15px" onmouseenter="playAudio()">😎</p>
+          </button>
+          <span class="intro_text bold fs15px"> Can't touch this</span>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
